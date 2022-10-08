@@ -1,0 +1,199 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p
+{
+  color: #8f8f8f;
+}
+
+.colored-bg
+{
+  background-color: #ff005c;
+  color: white;
+
+}
+
+
+
+/* Nav Bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+/* Title */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid
+{
+  text-align: left;
+  padding: 3% 10% 10%;
+}
+
+.downloadButton
+{
+  margin: 5% 3% 5% 0;
+}
+
+.titleImage
+{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+
+/* Features */
+
+#features
+{
+  padding: 10% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-text
+{
+  font-size: 1.5rem;
+
+}
+.feature-box
+{
+  padding: 0 4%;
+}
+
+.icon
+{
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.icon:hover
+{
+  color: #ff005c;
+  transform: scale(1.3);
+}
+
+
+
+/* Testimonials */
+
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img
+{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+
+
+/* Pricing */
+
+#pricing
+{
+  padding: 100px;
+}
+.price-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price-heading
+{
+  font-size: 1.5rem;
+
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+
+
+/* Call to Action */
+
+#cta
+{
+  padding: 7% 15%;
+}
+
+
+
+/* Footer */
+
+#footer
+{
+  padding: 7% 15%;
+}
+.footer-icon
+{
+  padding: 1%;
+}
+
+
+
+@media (max-width: 1028px)
+{
+  .container-fluid
+  {
+    text-align: center;
+  }
+  .titleImage
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
